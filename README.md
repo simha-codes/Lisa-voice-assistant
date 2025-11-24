@@ -1,16 +1,40 @@
 # Lisa-voice-assistant
-A simple Python based voice assistant named Lisa that uses speech recognition to answer questions from Wikipedia, open apps, play music, and perform basic system commands. 
+Lisa is a Python-based voice assistant that can perform various tasks such as searching Wikipedia, opening websites, playing music, launching applications, and system operations like shutdown or lock. Lisa is activated using the wake word "Lisa" and can respond to voice commands efficiently.
 <br>
-Lisa is a simple Python-based voice assistant. It listens to the user's voice, understands basic commands, and performs useful tasks like:
+Features:-
 <br>
--Searching topics on Wikipedia
+Wake Word Detection: Listens for the wake word "Lisa" to activate.
 <br>
--Opening Google or Youtube and some other.
+Wikipedia Search: Answers general questions and provides summaries.
 <br>
--Playing songs using a custom music library.
+Website Launcher: Opens popular websites like Google, YouTube, Instagram, LinkedIn, and VTOP portals.
 <br>
--Speaking the current time.
+Music Playback: Plays songs from a predefined library.
 <br>
--Running simple automation actions.
+Application Launcher: Opens Calculator, Notepad, and Command Prompt.
 <br>
-This project demonstrates speech recognition , text-to-speech, and basic Python automation.The code is lightweight and easy to modify for learning purposes
+System Commands: Shutdown, restart, or lock the computer.
+<br>
+Voice Feedback: Provides audio feedback using text-to-speech.
+<br>
+Installation:-
+<br>
+pip install pyttsx3 speechrecognition wikipedia
+<br>
+Note: musiclib is a custom Python module containing the music library. Make sure musiclib.py is in the same folder as your main script
+<br>
+Usage:-
+<br>
+Lisa will initialize and start listening for the wake word "Lisa".
+<br>
+Speak commands like:
+<br>
+"Lisa, open Google"
+<br>
+"Lisa, play Despacito"
+<br>
+"Lisa, open calculator"
+
+"Who is Albert Einstein?"
+
+"Lisa off" (to stop Lisa)
