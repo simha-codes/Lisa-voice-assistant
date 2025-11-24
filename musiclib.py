@@ -7,3 +7,4 @@ music= {
     'Desi Kalakaar':"https://www.youtube.com/watch?v=KhnVcAC5bIM&list=RDKhnVcAC5bIM&start_radio=1",
     'funk':"https://open.spotify.com/track/55YYhNqfMTIpPulNc0lLme?si=ff564b2c05b548db"
 }
+#Users can add their favourite songs...
